@@ -9,6 +9,7 @@
 1. Deploy the virtual machine for the first time
 - power on machine > when promted with `Which type of installation do you want` select `Custom` > when promted with `where do you want to install windows` select `New` `apply` and it should split the drive into multiple partitions > click `next`
 2. Computer will restart and it will bgin the process of setting up an account and basic config
+- click through insall prompts until you see `Sign in with Microsoft` > select `Domain join instead` > set up a local user > continue through setup
 
 ### Conect VM to Domain
 
