@@ -11,8 +11,16 @@
 - power on machine > when promted with `Which type of installation do you want` select `Custom` > when promted with `where do you want to install windows` select `New` `apply` and it should split the drive into multiple partitions > click `next`
 2. Computer will restart and it will bgin the process of setting up an account and basic config
 - click through insall prompts until you see `Sign in with Microsoft` > select `Domain join instead` > set up a local user > continue through setup
-
+3. Add VMware Tools
+4. Change computer name to somthing memorable
+  
 ### Conect VM to Domain
+1. Set DNS ip do ip of the DC
+- go to `network connection` > choose the adapter > ipv4 > set a static DNS
+2. connect tot he domain
+- go to `settings` > search `domain` and select `access work or school` > click `connect` > click `... local AD domain`
+- enter domain name and enter admin creds
+- for the `add an account` section click `skip` > `Restart`
 
 ### Create Local Administrators
 
